@@ -4,3 +4,26 @@
     font-size: 0.5em;
     color: #1abc9c;
 }
+
+.logo {
+    /* width:10%; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 992px) {
+    .logo{
+        width: 30%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .logo{
+        width: 10%;
+    }
+}
+
+.navbar .logo {
+    width: 18%;
+    margin-left: 0em;
+}

@@ -1,5 +1,6 @@
 import React from 'react'
-import Logo from './Logo';
+import logo from './ecm_logo.png'
+
 
 
 class Form extends React.Component {
@@ -60,7 +61,7 @@ class Form extends React.Component {
   render() {
     return (
       <div className="page-section">
-        <Logo></Logo>
+        <img className="logo" alt="ECM" src={logo} />
         <br/>
         <div className="col-lg-6 mx-auto my-auto">
           <form onSubmit={this.onSubmit.bind(this)}>
