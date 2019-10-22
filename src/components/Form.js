@@ -107,7 +107,8 @@ class Form extends React.Component {
             })} 
             <br/>
             <div className="form-group">
-              <button type="submit" className="btn btn-primary btn-xl">{this.props.btn}</button>          
+              <button type="submit" className="btn btn-primary btn-xl">{this.props.btn}</button> 
+              <a href="#" className="btn btn-xl">Oppure effettua il login...</a>         
             </div>
           </form>
         </div>

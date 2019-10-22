@@ -2242,7 +2242,7 @@ textarea.form-control {
 
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(26, 188, 156, 0.25);
+  box-shadow: 0 0 0 0rem rgba(26, 188, 156, 0.25);
 }
 
 .btn.disabled, .btn:disabled {
@@ -4109,15 +4109,15 @@ input[type="button"].btn-block {
   }
 }
 
-@media (max-width: 991.98px) {
+/* @media (max-width: 991.98px) {
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
     padding-right: 0;
     padding-left: 0;
   }
-}
+} */
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) { */
   .navbar-expand-lg {
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -4143,7 +4143,7 @@ input[type="button"].btn-block {
   .navbar-expand-lg .navbar-toggler {
     display: none;
   }
-}
+/* } */
 
 @media (max-width: 1199.98px) {
   .navbar-expand-xl > .container,

@@ -6,7 +6,7 @@ export default function RegisterPage() {
   const fields = [
     {input: 'input', placeholder: 'Username', type: 'text', name: 'username'},
     {input: 'input', placeholder: 'Email', type: 'email', name: 'email'},
-    {input: 'select', placeholder: '', type: '', name: 'team', option: ['Seleziona team', 'EAM', 'Web', 'IoT', 'Altro']},
+    /* {input: 'select', placeholder: '', type: '', name: 'team', option: ['Seleziona team', 'EAM', 'Web', 'IoT', 'Altro']}, */
     {input: 'input', placeholder: 'Password', type: 'password', name: 'password'},
     {input: 'input', placeholder: 'Conferma password', type: 'password', name: 'confirm'}
   ];
